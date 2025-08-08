@@ -2,119 +2,89 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Final Project: Valid, Accessible, Semantic HTML</title>
+    <title>Climate Change Awareness</title>
     <style>
-      :focus {
-        outline: 3px solid #0b5fff;
-        outline-offset: 2px;
-      }
       body {
-        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial,
-          sans-serif;
-        line-height: 1.6;
+        font-family: Arial, sans-serif;
+        background-color: #eef2f3;
         margin: 0;
+        padding: 20px;
       }
-      header,
-      main,
-      footer {
-        padding: 1rem;
-        max-width: 900px;
-        margin: 0 auto;
+
+      h1 {
+        text-align: center;
+        color: #2c3e50;
       }
-      header,
-      footer {
-        background: #f5f5f7;
+
+      p {
+        text-align: center;
+        font-size: 18px;
+        color: #34495e;
       }
+
+      .gallery {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 40px;
+      }
+
       figure {
-        margin: 1rem 0;
+        margin: 20px;
+        text-align: center;
       }
-      figcaption {
-        font-size: 0.95rem;
-        color: #333;
-      }
+
       img {
-        max-width: 100%;
+        width: 300px;
         height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      figcaption {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #2c3e50;
       }
     </style>
   </head>
   <body>
-    <header role="banner">
-      <h1>My Final Project</h1>
-      <p>
-        This site showcases my final project for the course. It is designed to
-        meet accessibility and HTML validation standards.
-      </p>
-      <nav aria-label="External resources">
-        <ul>
-          <li>
-            <a
-              href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn about semantic HTML on MDN
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main id="main-content">
-      <section aria-labelledby="work-title">
-        <h2 id="work-title">My Work</h2>
-        <p>
-          Below are images related to my project and a list of key features.
-        </p>
-        text
-        <figure>
-  <img
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Template-UI-wireframe.svg/1024px-Template-UI-wireframe.svg.png"
-    alt="Clean dashboard-style interface wireframe with sidebar and content panels."
-    width="1024" height="724">
-  <figcaption>Figure 1: Example of a clean application interface (Wikimedia Commons, CC BY-SA).</figcaption>
-</figure>
+    <h1>Climate Change Awareness</h1>
+    <p>
+      Highlighting the beauty of nature and the urgent need for action to
+      preserve it.
+    </p>
 
-<figure>
-  <img
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Filter_font_awesome.svg/512px-Filter_font_awesome.svg.png"
-    alt="Funnel-shaped filter icon symbolizing filtering controls."
-    width="512" height="512">
-  <figcaption>Figure 2: Icon representing an interactive filtering feature (Wikimedia Commons, CC BY-SA).</figcaption>
-</figure>
+    <div class="gallery">
+      <figure>
+        <img
+          src="https://raw.githubusercontent.com/sasly2048/Coursera/main/images/nature-lake.jpg"
+          alt="Nature Lake"
+        />
+        <figcaption>
+          Pristine lake representing Earth's natural beauty.
+        </figcaption>
+      </figure>
 
-<figure>
-  <img
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Client-server-model.svg/1024px-Client-server-model.svg.png"
-    alt="Client–server architecture diagram with clients sending requests to a server connected to a database."
-    width="1024" height="681">
-  <figcaption>Figure 3: Client–server system architecture diagram (Wikimedia Commons, CC BY-SA).</figcaption>
-</figure>
+      <figure>
+        <img
+          src="https://raw.githubusercontent.com/sasly2048/Coursera/main/images/polar-bear.jpg"
+          alt="Polar Bear"
+        />
+        <figcaption>
+          Polar bear on shrinking ice — a symbol of melting Arctic habitats.
+        </figcaption>
+      </figure>
 
-        <h3>Key Features</h3>
-        <ul>
-          <li>Responsive design for mobile, tablet, and desktop</li>
-          <li>Interactive user interface with keyboard support</li>
-          <li>Integration with a live data source</li>
-        </ul>
-      </section>
-
-      <section aria-labelledby="learn-title">
-        <h2 id="learn-title">Learn More</h2>
-        <p>Explore semantic HTML concepts and best practices in detail:</p>
-        <p>
-          <a
-            href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Mozilla Developer Network: Semantic HTML
-          </a>
-        </p>
-      </section>
-    </main>
-    <footer role="contentinfo">
-      <p>&copy; 2025 Final Project. All rights reserved.</p>
-    </footer>
+      <figure>
+        <img
+          src="https://raw.githubusercontent.com/sasly2048/Coursera/main/images/Solidarity.jpg"
+          alt="Solidarity"
+        />
+        <figcaption>
+          Global solidarity is essential to combat climate change together.
+        </figcaption>
+      </figure>
+    </div>
   </body>
 </html>
