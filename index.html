@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Final Project: Valid, Accessible, Semantic HTML</title>
+    <title>Voices for the Planet</title>
     <style>
       :focus {
         outline: 3px solid #0b5fff;
         outline-offset: 2px;
       }
       body {
-        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial,
-          sans-serif;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
         line-height: 1.6;
         margin: 0;
+        background-color: #f9f9f9;
       }
       header,
       main,
@@ -24,10 +24,10 @@
       }
       header,
       footer {
-        background: #f5f5f7;
+        background: #e6f0ee;
       }
       figure {
-        margin: 1rem 0;
+        margin: 1.5rem 0;
       }
       figcaption {
         font-size: 0.95rem;
@@ -36,85 +36,101 @@
       img {
         max-width: 100%;
         height: auto;
+        border-radius: 8px;
       }
     </style>
   </head>
   <body>
     <header role="banner">
-      <h1>My Final Project</h1>
+      <h1>Voices for the Planet</h1>
       <p>
-        This site showcases my final project for the course. It is designed to
-        meet accessibility and HTML validation standards.
+        A student-led initiative raising awareness about climate change, wildlife protection,
+        and the importance of unity in safeguarding our planet.
       </p>
       <nav aria-label="External resources">
         <ul>
           <li>
             <a
-              href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics"
+              href="https://www.un.org/en/climatechange"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Learn about semantic HTML on MDN
+              Learn more about climate action at the UN
             </a>
           </li>
         </ul>
       </nav>
     </header>
+
     <main id="main-content">
-      <section aria-labelledby="work-title">
-        <h2 id="work-title">My Work</h2>
+      <section aria-labelledby="mission-title">
+        <h2 id="mission-title">Our Mission</h2>
         <p>
-          Below are images related to my project and a list of key features.
+          We believe that collective action, environmental education, and a shared vision for
+          sustainability are vital to ensuring a better future for all.
         </p>
-        text
+
         <figure>
-  <img
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Template-UI-wireframe.svg/1024px-Template-UI-wireframe.svg.png"
-    alt="Clean dashboard-style interface wireframe with sidebar and content panels."
-    width="1024" height="724">
-  <figcaption>Figure 1: Example of a clean application interface (Wikimedia Commons, CC BY-SA).</figcaption>
-</figure>
+          <img
+            src="https://raw.githubusercontent.com/sasly2048/Coursera/main/images/solidarity.jpg"
+            alt="Group of people raising their fists in unity."
+          />
+          <figcaption>
+            Figure 1: Community solidarity is the foundation of impactful environmental movements.
+          </figcaption>
+        </figure>
 
-<figure>
-  <img
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Filter_font_awesome.svg/512px-Filter_font_awesome.svg.png"
-    alt="Funnel-shaped filter icon symbolizing filtering controls."
-    width="512" height="512">
-  <figcaption>Figure 2: Icon representing an interactive filtering feature (Wikimedia Commons, CC BY-SA).</figcaption>
-</figure>
+        <figure>
+          <img
+            src="https://raw.githubusercontent.com/sasly2048/Coursera/main/images/polar-bear.jpg"
+            alt="Polar bear swimming through the icy waters."
+          />
+          <figcaption>
+            Figure 2: Melting ice threatens the polar bear's survival — a stark reminder of climate change.
+          </figcaption>
+        </figure>
 
-<figure>
-  <img
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Client-server-model.svg/1024px-Client-server-model.svg.png"
-    alt="Client–server architecture diagram with clients sending requests to a server connected to a database."
-    width="1024" height="681">
-  <figcaption>Figure 3: Client–server system architecture diagram (Wikimedia Commons, CC BY-SA).</figcaption>
-</figure>
+        <figure>
+          <img
+            src="https://raw.githubusercontent.com/sasly2048/Coursera/main/images/nature-lake.jpg"
+            alt="Person standing in a calm lake with mountains in the background."
+          />
+          <figcaption>
+            Figure 3: Nature's serenity is worth protecting — for us and generations to come.
+          </figcaption>
+        </figure>
+      </section>
 
-        <h3>Key Features</h3>
+      <section aria-labelledby="goals-title">
+        <h2 id="goals-title">Our Goals</h2>
         <ul>
-          <li>Responsive design for mobile, tablet, and desktop</li>
-          <li>Interactive user interface with keyboard support</li>
-          <li>Integration with a live data source</li>
+          <li>Promote sustainable habits in schools and communities</li>
+          <li>Organize clean-up drives, eco-awareness sessions, and workshops</li>
+          <li>Collaborate with NGOs for wildlife conservation efforts</li>
+          <li>Educate youth on climate change and global responsibility</li>
         </ul>
       </section>
 
-      <section aria-labelledby="learn-title">
-        <h2 id="learn-title">Learn More</h2>
-        <p>Explore semantic HTML concepts and best practices in detail:</p>
+      <section aria-labelledby="get-involved-title">
+        <h2 id="get-involved-title">Get Involved</h2>
+        <p>
+          Whether you're a student, teacher, activist, or just a nature-lover — your voice matters.
+          Join us in creating real change for the planet.
+        </p>
         <p>
           <a
-            href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics"
+            href="https://www.earthday.org/take-action-now/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Mozilla Developer Network: Semantic HTML
+            Take action with Earth Day initiatives
           </a>
         </p>
       </section>
     </main>
+
     <footer role="contentinfo">
-      <p>&copy; 2025 Final Project. All rights reserved.</p>
+      <p>&copy; 2025 Voices for the Planet. All rights reserved.</p>
     </footer>
   </body>
 </html>
